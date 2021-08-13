@@ -1,0 +1,121 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "blocks": [
+      {
+        "alignment": "left",
+        "segments": [
+          {
+            "background": "#808080",
+            "foreground": "#ffffff",
+            "leading_diamond": "",
+            "powerline_symbol": "",
+            "properties": {
+              "enable_hyperlink": true,
+              "mapped_locations_enabled": true,
+              "mapped_locations": [
+                ["D:\\src\\repos\\", "{} "],
+                ["C:\\src\\repos\\", "{} "],
+                ["D:\\src\\os\\", "{} "],
+                ["D:\\src\\os2\\", "{ } "],
+                ["D:\\src\\os3\\", "{  } "],
+                ["D:\\src\\rs1\\", "{<#ff0000,> </>}"]
+              ],
+              "mixed_threshold": 3,
+              "prefix": "  ",
+              "stack_count_enabled": true,
+              "style": "mixed"
+            },
+            "style": "diamond",
+            "trailing_diamond": "",
+            "type": "path"
+          }
+        ],
+        "type": "prompt"
+      },
+      {
+        "alignment": "right",
+        "segments": [
+          {
+            "background": "#ffff66",
+            "foreground": "transparent",
+            "properties": {
+              "prefix": "<#ffff66,transparent>\uE0B6</>",
+              "postfix": " <transparent,#ffff66>\uE0B2</>"
+            },
+            "leading_diamond": "",
+            "trailing_diamond": "",
+            "style": "diamond",
+            "type": "root"
+          },
+          {
+            "background": "#2e9599",
+            "foreground": "#ffffff",
+            "powerline_symbol": "\uE0B2",
+            "invert_powerline": true,
+            "properties": {
+              "always_enabled": false,
+              "color_background": true,
+              "display_exit_code": true,
+              "error_color": "#f1184c",
+              "prefix": "<#f1184c,transparent> </>",
+              "postfix": " <transparent,#f1184c>\uE0B2</>"
+            },
+            "leading_diamond": "",
+            "trailing_diamond": "",
+            "style": "diamond",
+            "type": "exit"
+          },
+          {
+            "background": "#f36943",
+            "foreground": "#193549",
+            "powerline_symbol": "\uE0B2",
+            "invert_powerline": true,
+            "properties": {
+              "battery_icon": "",
+              "discharging_icon": "\uE234 ",
+              "charging_icon": "\uF1E6 ",
+              "charged_color": "#4caf50",
+              "charging_color": "#40c4ff",
+              "color_background": true,
+              "discharging_color": "#ff5722",
+              "display_error": false,
+              "hide_while_charging": true,
+              "postfix": " "
+            },
+            "style": "powerline",
+            "type": "battery"
+          },
+          {
+            "foreground": "transparent",
+            "background": "#00ffff",
+            "invert_powerline": true,
+            "powerline_symbol": "\uE0B2",
+            "properties": {
+              "prefix": "<#00ffff,transparent>\uE70C </>",
+              "postfix": " <transparent,#00ffff>\uE0B2</>"
+            },
+            "leading_diamond": "",
+            "trailing_diamond": "",
+            "style": "diamond",
+            "type": "dotnet"
+          },
+          {
+            "background": "#fffb38",
+            "foreground": "#193549",
+            "invert_powerline": true,
+            "leading_diamond": "\uE0B2",
+            "trailing_diamond": "\uE0B4",
+            "properties": {
+              "display_stash_count": true,
+              "display_upstream_icon": true
+            },
+            "style": "diamond",
+            "type": "git"
+          }
+        ],
+        "type": "rprompt"
+      }
+    ],
+    "final_space": true
+  }
+  
